@@ -1,7 +1,12 @@
 
-# DDR
+# NahamCon2021 DDR
 
+497 points - Scripting - 51 Solves - medium
+
+Text
+```
 It's Dance Dance Revolution! You already know how to play!
+```
 
 
 ## Solve

@@ -1,5 +1,5 @@
 
-# NahamCon2021 DDR
+# NahamCon2021 DDR Writeup
 
 497 points - Scripting - 51 Solves - medium
 

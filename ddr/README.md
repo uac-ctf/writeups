@@ -46,7 +46,7 @@ Just had to follow the arrows and retrieve the flag.
 ![ddr solved](https://github.com/uac-ctf/nahamcon2021/raw/main/ddr/ddr-solve.png)
 
 
-Of course a much better way is to encode the path and update the script so that it follows the arrows and prints the flag.
+Of course a much better way is to encode the path and update the script so that it follows the arrows and prints the flag (```ddr.py`` ).
 
 
 Flag was ```flag{2a4c690675849c329b2f27fe4c192e}```

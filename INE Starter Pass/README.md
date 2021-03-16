@@ -23,7 +23,7 @@ We can see that the string ```ZmxhZ3syOWZhMzA1YWFmNWUwMWU5ZWRjZjAxNDJlNGRkY2RiOX
 
 Maybe base64? 
 
-By using an online base64 decoder we confirm our assumption, it is base 64.
+By using an online base64 decoder we confirm our assumption, it is base 64 and by decoding we get the flag.
 
 Flag was ```flag{29fa305aaf5e01e9edcf0142e4ddcdb9}```
 

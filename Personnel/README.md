@@ -36,4 +36,4 @@ If the backend uses Python, this sets the ```re.DOTALL``` flag of something like
 Another solution, probably much simpler was to issue ```[\s\S]+``` as the query term. This searches for one or more characters that are spaces, or that are not spaces.
 It is similar to the ```.+``` query, but also includes the ```\n```.
 
-We include a Proof of Concept of to test the queries.
+We include a Proof of Concept to test the queries.

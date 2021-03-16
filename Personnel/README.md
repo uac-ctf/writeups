@@ -31,7 +31,7 @@ Regular expressions usually do not work for multiline matches, and the flag is "
 We solved it by changing the value of the ```setting``` field to ```16```. Actually, many values were supported as long as the last 3 bits are ```100```.
 If the backend uses Python, this sets the ```re.DOTALL``` flag of something like a ```re.findall```, enabling the regular expression to search acroos the ```\n```.
 
-![personnel](https://raw.githubusercontent.com/uac-ctf/nahamcon2021/main/Personnel/personnel-solve.png)
+![personnel](https://raw.githubusercontent.com/uac-ctf/nahamcon2021/main/Personnel/personnel-solved.png)
 
 Another solution, probably much simpler was to issue ```[\s\S]+``` as the query term. This searches for one or more characters that are spaces, or that are not spaces.
 It is similar to the ```.+``` query, but also includes the ```\n```.

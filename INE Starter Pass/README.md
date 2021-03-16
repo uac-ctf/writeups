@@ -13,7 +13,7 @@ Perform some reconnaissance on their online presence and find a flag you can sub
 
 ## Solve
 
-The challenge presents a message related to the [INE](https://checkout.ine.com) company. Given the previous info only one person solved it until the challenge's name was change and it was given a new website link. The name was changed to INE (Starter Pass) where it hints to a more particular part of the INE's online presence and the new link [INE Starter Pass](https://checkout.ine.com/starter-pass) confirms it.
+The challenge presents a message related to the [INE](https://ine.com/) company. Given the previous info only one person solved it until the challenge's name was change and it was given a new website link. The name was changed to INE (Starter Pass) where it hints to a more particular part of the INE's online presence and the new link [INE Starter Pass](https://checkout.ine.com/starter-pass) confirms it.
 
 In the previous link presented if we inspect the elements we can see a div called "register__analytics". Inside of that div there are more nested divs until we find a paragraph <p> and a <span> and finally inside of that span we see the flag, in a way. 
 

@@ -19,7 +19,11 @@ In the previous link presented if we inspect the elements we can see a div calle
 
 ![INE](https://github.com/uac-ctf/nahamcon2021/blob/9134850405b281fa18177c67159d7f9f84db0baa/INE%20Starter%20Pass/ine.png)
 
-We can see that the string ```ZmxhZ3syOWZhMzA1YWFmNWUwMWU5ZWRjZjAxNDJlNGRkY2RiOX0=``` isn't in the normal flag{...} format, but we can also see that the string ends with an "=". Maybe base64? By using an online base64 decoder we confirm our assumption, it is base 64.
+We can see that the string ```ZmxhZ3syOWZhMzA1YWFmNWUwMWU5ZWRjZjAxNDJlNGRkY2RiOX0=``` isn't in the normal flag{...} format, but we can also see that the string ends with an "=". 
+
+Maybe base64? 
+
+By using an online base64 decoder we confirm our assumption, it is base 64.
 
 Flag was ```flag{29fa305aaf5e01e9edcf0142e4ddcdb9}```
 

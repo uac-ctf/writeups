@@ -1,6 +1,6 @@
 # NahamCon2021 INE (Starter Pass) Writeup
 
-500 points - Scripting - 111 Solves - easy
+438 points - Sponsors Recon - 165 Solves - easy 
 
 ```
 Thanks to INE for helping sponsor NahamCon!

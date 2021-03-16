@@ -17,7 +17,7 @@ The challenge presents a message related to the [INE](https://ine.com/) company.
 
 In the previous link presented if we inspect the elements we can see a div called "register__analytics". Inside of that div there are more nested divs until we find a paragraph <p> and a <span> and finally inside of that span we see the flag, in a way. 
 
-![ine](https://github.com/uac-ctf/nahamcon2021/blob/main/INE-Starter-Pass/ine.png)
+![](https://github.com/uac-ctf/nahamcon2021/blob/main/INE-Starter-Pass/ine.png)
 
 We can see that the string ```ZmxhZ3syOWZhMzA1YWFmNWUwMWU5ZWRjZjAxNDJlNGRkY2RiOX0=``` isn't in the normal flag{...} format, but we can also see that the string ends with an "=". Maybe base64? By using an online base64 decoder we confirm our assumption, it is base 64.
 

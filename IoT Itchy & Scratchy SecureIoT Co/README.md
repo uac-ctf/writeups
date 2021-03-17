@@ -50,10 +50,10 @@ $ echo U2VDVVJlUEA1NVcwckQx |base64 -d
 SeCUReP@55W0rD1
 ```
 
-The ```part1``` and ```part2``` contain large base64 blobs and vary along time, pointing to a two part blob related to the OTP. After reconstructing the messages we get an image with the OTP.
+The ```part1``` and ```part2``` contain large base64 blobs and vary along time, pointing to a two part blob related to the OTP. After building a file with both parts concatenated and then converting the base64 blob to a binary one, building what is a simple ```jpg``` we get the OTP.
 Input all information to the webpage and the flag is presented.
 
 ![otp](https://github.com/uac-ctf/nahamcon2021/raw/main/IoT%20Itchy%20%26%20Scratchy%20SecureIoT%20Co/otp.jpg)
 
-The ```solve.py``` script automates this process.
+The ```solve.py``` script automates the process.
 

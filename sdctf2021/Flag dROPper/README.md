@@ -24,6 +24,8 @@ RelRO                         : Partial
 
 Disassembling the binary yelds a function with several syscalls and a ```JMP```.
 ```
+$ objdump -M intel -d flagDropper
+
 0000000000400540 <main>:
   400540:       55                      push   rbp
   400541:       48 89 e5                mov    rbp,rsp

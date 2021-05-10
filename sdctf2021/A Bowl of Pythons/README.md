@@ -10,7 +10,7 @@ Incorrect flag! You need to hack deeper...
 ```
 
 A simple way of solving it was to do the calculations, and print the result.
-This can be achieved by placing the following code in the top of function ```e()```
+This can be achieved by placing the following code in the top of function ```e()```. The code is taken from the script it self.
 Actually, this code could be almost anywhere on the file...
 
 ```

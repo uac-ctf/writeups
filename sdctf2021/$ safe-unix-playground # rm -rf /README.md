@@ -1,3 +1,5 @@
+# $ safe-unix-playground # rm -rf
+
 This challenge provided a python script named ```server.py``` which contains the a program that validates commands before execution.
 The validation is made by comparing the digest of the command against a fixed list of commands: ```['ls', 'cat flag-1.txt']```
 

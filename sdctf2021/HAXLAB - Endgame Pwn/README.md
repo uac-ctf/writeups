@@ -1,4 +1,4 @@
-# HAXLAB - Flag Leak 2
+# HAXLAB - Endgame Pwn
 
 The challenge provided a python file implementing a secure calculator. It requires at least python 3.8.5 to run, as it makes use of audit hooks, which has been added along 3.8 and had some fixes in more recent versions.
 

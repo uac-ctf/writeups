@@ -80,7 +80,7 @@ tedug|E1ou`c4`5`g52mvs4`2jl4`uI2T`D1e4~nice guess!
 
 A python oneliner will get us the flag:
 ```
-''.join([chr(x-1) for x in b'tedug|E1ou`c4`5`g52mvs4`2jl4`uI2T`D1e4~'])
+print(''.join([chr(x-1) for x in b'tedug|E1ou`c4`5`g52mvs4`2jl4`uI2T`D1e4~']))
+sdctf{D0nt_b3_4_f41lur3_1ik3_tH1S_C0d3}
 ```
-
 

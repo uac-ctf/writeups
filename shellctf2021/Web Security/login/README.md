@@ -1,5 +1,5 @@
 # login
-###### Web Security - 50 points
+###### Web Security - 200 points
 For this challenge we were provided with a [url](http://3.142.122.1:8889/) to visit. 
 
 ![ScreenshotWebpage](Screenshot_login-webpage.png)

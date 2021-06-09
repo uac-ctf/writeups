@@ -1,5 +1,5 @@
 # Under Development
-###### Forensics - 200 points
+###### Forensics - 50 points
 
 For this challenge we were provided with an [url](http://3.142.122.1:8885/) to visit.
 

@@ -1,5 +1,5 @@
 # Hidden inside 3
-###### Forensics - 200 points
+###### Forensics - 438 points
 
 ```
 Brad wanted to send a msg to Raj but he wanted to hide it from his wife? Can you help Raj decode it?

@@ -90,7 +90,7 @@ Let's look at your script's logic:
 
 In summary, the attack isn't performing standard BB84 basis reconciliation. Instead, it's exploiting a monogram's feedback that effectively tells it if its latest basis choice, combined with previously confirmed correct ones, introduces an error. This allows it to determine each basis iteratively. If a choice is wrong, it flips it, knowing the new choice must be right (as there are only two options).
 
-With this approach, both me and `Rackham` were able to retrieve the flag and stop Doofenshmirtz's diabolical plans!
+With this approach, we were able to retrieve the flag and stop Doofenshmirtz's diabolical plans!
 
 ```
 flag{MO0O0O0O0M PH1NE4S & F3RB R T4LK1NG 2 AL1ENS 0V3R QKD!!!}
